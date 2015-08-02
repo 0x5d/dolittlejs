@@ -1,6 +1,6 @@
 # dolittle.js
 Dolittle kindly translates your camelCase JSON object keys into snake_case keys, and viceversa.
-It's an angular module meant to minimize the effort in translating camel case JSON keys of JS
+It's meant to minimize the effort in translating camel case JSON keys of JS
 clients to snake case, used in some APIs made with Ruby, for example.
 
 ## Install it with npm or bower

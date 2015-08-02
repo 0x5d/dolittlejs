@@ -5,17 +5,17 @@ clients to snake case, used in some APIs made with Ruby, for example.
 
 ## Install it with npm or bower
 ```sh
-$ bower install dolittle
+$ bower install dolittlejs
 ```
 ```sh
-$ npm install dolittle
+$ npm install dolittlejs
 ```
 ### Angular module:
 For the angular module, go [here](https://github.com/castillobg/dolittle).
 
 ## Use it
 ```javascript
-var dolittle = require('dolittle');
+var dolittle = require('dolittlejs');
 
 var testObj = {
   helloWorld : 'Hello World',

@@ -30,7 +30,7 @@ var testObj = {
 };
 
 var snakeized = dolittle.to.snake(testObj);
-// console.log(snakeized); will print:
+// will return:
 // {
 //   "hello_world" : "Hello World",
 //   "nested_object" : {
@@ -44,5 +44,5 @@ var snakeized = dolittle.to.snake(testObj);
 // }
 
 var camelized = dolittle.to.camel(snakeized);
-// console.log(snakeized); will print the original object;
+// will return the original object.
 ```

@@ -1,6 +1,6 @@
 {
   "name": "dolittlejs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Dolittle kindly translates your camelCase JSON object keys into snake_case keys, and viceversa. It's meant to minimize the effort in translating camel case JSON keys of JS clients to snake case, used in some APIs made with Ruby, for example.",
   "main": "dolittle.js",
   "scripts": {

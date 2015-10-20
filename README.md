@@ -14,6 +14,8 @@ $ npm install dolittlejs
 For the angular module, go [here](https://github.com/castillobg/dolittle).
 
 ## Use it
+[Try it out on npm!](https://tonicdev.com/npm/dolittlejs)
+
 ```javascript
 var dolittle = require('dolittlejs');
 
@@ -24,7 +26,8 @@ var testObj = {
     fooBar : [1, 2, 3],
     fooBarBaz : [
       { test1 : 'what'},
-      { test2 : ['this', 'that']}
+      { test2 : ['this', 'that']},
+      nullioVonJulio : null
     ]
   }
 };
@@ -38,7 +41,8 @@ var snakeized = dolittle.to.snake(testObj);
 //     "foo_bar" : [1,2,3],
 //     "foo_bar_baz" : [
 //       {"test1" : "what"},
-//       {"test2" : [ "this","that"]}
+//       {"test2" : [ "this","that"]},
+//       "nullio_von_julio" : null
 //     ]
 //   }
 // }
@@ -46,3 +50,7 @@ var snakeized = dolittle.to.snake(testObj);
 var camelized = dolittle.to.camel(snakeized);
 // will return the original object.
 ```
+
+## Thanks to
+[painpony](https://github.com/painpony) for pointing out the zoo in this module, and [zubieta](https://github.com/Zubieta) for
+the funny name.

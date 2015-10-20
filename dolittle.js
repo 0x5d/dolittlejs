@@ -9,15 +9,18 @@ function snake(obj){
 function camel(obj){
   return iterate(obj, function(propName){
     return propName.replace(/^_+/, '')
-  		.replace(/_+([a-z])/g, function(_, char) {
-  			return char.toUpperCase();
-  		});
+      .replace(/_+([a-z])/g, function(_, char) {
+        return char.toUpperCase();
+      });
   });
 };
 
 function iterate(obj, convert){
   if(typeof obj !== 'object'){
     return obj;
+  }
+  else if(obj == null) {
+    return null;
   }
   var translatedObj = {};
   for(var prop in obj){
